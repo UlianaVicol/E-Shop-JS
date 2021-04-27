@@ -167,7 +167,7 @@ let productDetails = [
   }
   //}
   
-  //Ui components {
+   
   function Product(product = {}) {
     let { rate, name, price, imageUrl} = product;
     return `
@@ -257,7 +257,7 @@ let productDetails = [
   </div>`;
   }
 
-  //updates Ui components {
+
   function ShowProducts() {
     let products = productDetails.map((product) => {
       return Product(product);
